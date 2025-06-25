@@ -102,13 +102,15 @@ while sw: # Menú principal
             cancelar_compra()
 
         elif op == "4": # Salir
-            pass
+            print("Programa terminado...")
+            sw = False
 
         else:
             print("¡Debe ingresar una opción válida!\n")
 
     except Exception as e:
         print(f"Error inesperado: {e}")
+
 
 
 
